@@ -4,8 +4,6 @@
 
 function [sigmaxxemt, sigmaxyemt] = sigmaemt(eta, mu, B, nshift)
 
-if (nargin < 4) || isempty(nshift), nshift = 0; end
-
 %% Conductivities
 sigmaxx = @(nn, BB) sigmasimple(nn, mu, nshift) ./ (1 + (mu * BB) .^ 2);
 sigmaxy = @(nn, BB) -sign(nn-nshift).*mu * BB .* sigmaxx(nn, BB);
