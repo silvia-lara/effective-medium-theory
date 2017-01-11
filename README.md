@@ -1,1 +1,5 @@
 # effective-medium-theory
+This Code was developed by I Yudhistira , N Ramakrishnan, S Lara, YT Lai and S. Adam and used for the following projects:
+'Equivalence of Effective Medium and Random Resistor Network models for disorder-induced linear unsaturating magnetoresistance', and 'Disorder-induced magnetoresistance in a two-dimensional electron system', http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.047206 . 
+
+The Effective Medium Theory assumes that a sample is broken up into large macroscopic 'puddles' each with a given conductivity. One can understand the origin of these macroscopic puddles as a consequence of inhomogeneously distributed charged impurities. These charged impurities are screened by induced local carriers and thus, creating a spatially varying local carrier densities and consequently, varying local conductivities. Requiring that the average electric field over the sample be the same as the applied electric field while allowing local variations in the electric field across different regions leads to the EMT equations.
